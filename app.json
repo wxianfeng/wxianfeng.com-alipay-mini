@@ -1,0 +1,8 @@
+{
+  "pages": [
+    "pages/posts/index"
+  ],
+  "window": {
+    "defaultTitle": "程序员wxianfeng"
+  }
+}

@@ -1,0 +1,36 @@
+<view class="housing-fund-record-page">
+  <tabs
+   tabs="{{tabs2}}"
+   tabsName="activeTab2"
+   onTabClick="handleTabClick"
+   onChange="handleTabChange"
+   activeTab="{{activeTab2}}"
+   showPlus="{{false}}"
+   capsule="{{false}}"
+   hasSubTitle="{{false}}"
+  >
+   <block a:for="{{tabs2}}">
+     <tab-content swipeable="{{true}}" key="{{index}}" tabId="{{index}}" activeTab="{{activeTab2}}" a:if="{{index === 0}}">
+       <view class="housing-fund-record-page-content">
+        <view a:for="{{filterList}}">
+          <housing-fund-record data="{{item}}"/>
+        </view>
+       </view>
+     </tab-content>
+     <tab-content swipeable="{{true}}" key="{{index}}" tabId="{{index}}" activeTab="{{activeTab2}}" a:elif="{{index === 2}}">
+       <view class="housing-fund-record-page-content">
+        <view a:for="{{filterList}}">
+          <housing-fund-record data="{{item}}"/>
+        </view>
+       </view>
+     </tab-content>
+     <tab-content swipeable="{{true}}" key="{{index}}" tabId="{{index}}" activeTab="{{activeTab2}}" a:else>
+       <view class="housing-fund-record-page-content">
+        <view a:for="{{filterList}}">
+          <housing-fund-record data="{{item}}"/>
+        </view>
+       </view>
+     </tab-content>
+   </block>
+  </tabs>
+</view>

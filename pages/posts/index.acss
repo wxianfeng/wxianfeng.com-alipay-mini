@@ -1,0 +1,25 @@
+.housing-fund-record-page {
+    //background-color:rgb(242, 242, 242);
+    //padding:16px 12px;
+    //height:100vh;
+    //box-sizing:border-box;
+}
+
+.housing-fund-record-page-content {
+    //position: absolute;    
+    //width: 100%;
+    //top: 0;
+    //bottom: 0;
+    //left: 0;
+    //background-color:red;
+
+    height:calc(100vh - 44px);
+    overflow-y: auto;
+    background-color:rgb(242, 242, 242);
+    padding:16px 12px;
+    box-sizing:border-box;
+}
+
+.housing-fund-record-page-content >view{
+    margin-bottom:24rpx;
+}

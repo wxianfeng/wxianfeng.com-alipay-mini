@@ -1,0 +1,8 @@
+{
+  "defaultTitle": "公积金-历史记录",
+  "usingComponents": {
+    "housing-fund-record": "mashi-open-snippets/es/housing-fund-record/index",
+    "tabs": "mini-ali-ui/es/tabs/index",
+    "tab-content": "mini-ali-ui/es/tabs/tab-content/index"
+  }
+}
